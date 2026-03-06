@@ -12,8 +12,8 @@ export default function HomeScreen({ navigation }) {
             <View style={styles.hero}>
                 <Text style={styles.title}>Diseño adaptativo</Text>
                 <Text style={styles.subtitle}>
-                    Objetivo: una UI que cambia su estructura segun el ancho de pantalla:
-                    movil 1 columna / tablet 2 columnas
+                    Las chicas superpoderosas necesitan una app que se vea bien tanto en móviles como en tablets.
+                    En este ejercicio vamos a crear un dashboard adaptativo que cambia su layout según el tamaño de pantalla.
                 </Text>
 
                 <Pressable
