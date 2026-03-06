@@ -4,5 +4,5 @@
  */
 
 export function getLayoutMode(width) {
-    return width < 768 ? "tablet" : "mobile";
+    return width >= 768 ? "tablet" : "mobile";
 }
